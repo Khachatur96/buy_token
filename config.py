@@ -12,7 +12,7 @@ eth_bal = web3.fromWei(balance, 'ether')
 weth = web3.toChecksumAddress('0xae13d989dac2f0debff460ac112a837c89baa7cd')
 nonce = web3.eth.get_transaction_count(wallet_address)
 print(nonce)
-private_key = '976a19880c703292d0a38fbe56febde56bdb6857fd30b9cfab11739fdb8b539e'
+private_key = input("Enter your wallet private_key here")
 max_amount = web3.toWei(2 ** 64 - 1, 'ether')
 
 COINS = {
